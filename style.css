@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    *{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    body{
+      background-color:  hsl(217, 54%, 11%);
+      font-family: "Outfit";
+    }
+
+
+    .container-card{
+      background-color: hsl(216, 50%, 16%);
+      width:320px ;
+      height: 550px;
+      margin: 100px auto;
+      padding: 1em;
+      border-radius: 10px;
+    }
+
+    .first-photo{
+      width: 288px;
+      height: 288px;
+      border-radius: 10px;
+    }
+
+    .title-card{
+      color: #fff;
+      margin-top: 10px;
+      text-align: left;
+      font-weight: 500;
+    }
+
+    .paragraph-info{
+      color: hsl(215, 51%, 70%);
+      font-weight: 300;
+      margin-top: 16px;
+    }
+
+    .container-info{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container-container-info{
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .second-photo{
+      width: 10px;
+      height: 20px;
+      margin-right: 0.5em;
+    }
+
+    .paragraph-first{
+      margin-top: 3px;
+      color: hsl(178, 100%, 50%);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .container-container-container-info{
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .thirt-photo{
+      width: 20px;
+      height: 20px;
+      margin-right:0.5em;
+    }
+
+    .paragraph-second{
+      font-weight: 300;
+      color:hsl(215, 51%, 70%); 
+    }
+
+    hr{
+      margin-top: 30px;
+      border: 1px solid hsl(215, 32%, 27%);
+    }
+
+    .container-profile{
+      display: flex;
+    }
+
+    .fourth-photo{
+      width: 40px;
+      height: auto;
+      margin-top: 15px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+
+    .name-user{
+      font-size: 16px;
+      color: hsl(215, 51%, 70%);
+      font-weight: 400;
+      margin-top: 25px;
+      margin-left: 5px;
+    }
+
+    span{
+      color: #fff;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width:1440px) {
+      .container-card{
+        margin: 40px auto;
+      }
+    }
